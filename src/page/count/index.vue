@@ -23,8 +23,6 @@ export default {
     clickNum(){
       this.addCountAction()
     }
-  },
-  created(){
   }
 }
 </script>

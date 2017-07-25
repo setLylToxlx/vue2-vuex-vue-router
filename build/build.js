@@ -4,9 +4,9 @@ env.NODE_ENV = 'production'
 
 var path = require('path')
 var config = require('../config')
-var ora = require('ora')
+var ora = require('ora')//输出信息模板
 var webpack = require('webpack')
-var webpackConfig = require('./webpack.prod.conf')
+var webpackConfig = require('./webpack.prod.conf')//生产模式下的配置
 
 var spinner = ora('building for production...')
 spinner.start()
